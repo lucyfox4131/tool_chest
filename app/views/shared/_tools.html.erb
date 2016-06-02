@@ -1,0 +1,9 @@
+<%= form_for(@tool) do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %><br>
+  <%= f.label :price, "Price" %>
+  <%= f.text_field :price %><br>
+  <%= f.label :quantity %>
+  <%= f.text_field :quantity%><br>
+  <%= f.submit%>
+<% end %>
